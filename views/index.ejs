@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Zillow | San Franciso Listings</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container pt-5" id="maps">
+        <h1>San Franciso Listings</h1>
+        <hr>
+        <div id="map-container">
+            <input id="pac-input" class="controls" type="text" placeholder="Search Locations">
+            <div class="rounded" id="map"></div>
+        </div>
+    </div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-QSM_TBWajGDuFamplwKdfAt1-Q5QRSA&callback=initMap&libraries=places,visualization"
+        type="text/javascript"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

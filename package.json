@@ -1,0 +1,26 @@
+{
+  "name": "zillow",
+  "version": "1.0.0",
+  "description": "browser based airdrop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecathectZero/zillow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DecathectZero/zillow/issues"
+  },
+  "homepage": "https://github.com/DecathectZero/zillow#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "json-stringify-safe": "^5.0.1"
+  }
+}
